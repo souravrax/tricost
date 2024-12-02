@@ -1,8 +1,7 @@
 "use client";
-import { motion, useMotionValue, useTransform } from "motion/react";
+import { motion } from "motion/react";
 import { CogIcon, TicketsPlaneIcon, UserIcon } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Jersey_10 } from "next/font/google";
 import { usePathname } from "next/navigation";
